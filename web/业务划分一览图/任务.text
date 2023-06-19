@@ -1,0 +1,131 @@
+王辰
+
+订单管理
+公告管理
+
+
+
+
+舍玺钦
+
+后台登录界面 adminLogin.jsp
+后台头部抽取 managerTop.jsp
+
+用户管理一览 memberManageList.jsp
+用户信息修改 toMemberManageModify.jsp
+用户详细信息 memberManageView.jsp
+
+
+用户登录界面 login.jsp
+用户注册界面 register.jsp
+密码重置界面 resetPassword.jsp
+
+会员资料修改界面 memberModify.jsp
+
+前台主页面 index.jsp
+
+更多商品界面 moreGoods.jsp
+
+前台商品详细信息 details.jsp
+
+
+
+
+郭晨旭 :
+
+购物车
+商品
+
+
+
+
+
+宋艳红
+前台会员登录注册业务
+前端页面改名
+将前端页面.html文件代码粘贴进对应的.jsp文件中
+会员资料修改业务
+
+
+
+
+已完成页面
+
+adminLogin.jsp          管理员登录页面
+
+memberManageList.jsp    后台会员管理一览
+memberManageView.jsp    后台会员详细信息
+toMemberManageModify.jsp  后台会员信息修改页面
+
+orderManageList.jsp     后台订单列表
+orderManageView.jsp     后台订单详情
+refund.jsp              订单处理退款页面
+processReturn.jsp       订单退货处理页面
+orderClose.jsp          订单关闭页面
+
+noticeManageList.jsp    后台公告列表
+noticeMessageView.jsp   后台公告展示
+toNoticeMessageAdd.jsp  后台公告添加
+noticeMessageModify.jsp 后台公告修改页面
+
+goodsManageList.jsp     后台商品列表
+goodsManageView.jsp     后台商品详情
+toCoodsManageAdd.jsp    后台商品添加页面
+toGoodsManageEdit.jsp   后台商品修改页面
+
+
+
+managerTop.jsp          后台头部页面
+top.jsp                 前台头部页面
+
+
+
+
+login.jsp               前台会员登录界面
+register.jsp            前台会员注册界面
+resetPassword.jsp       密码重置界面
+memberModify.jsp        前台会员信息修改
+
+checkOut.jsp            前台订单生成
+checkOrders.jsp         前台订单列表
+orderNumber.jsp         前台订单号展示
+orderInformation.jsp    前台订单详情
+return.jsp              前台订单退货
+
+
+
+index.jsp               前台主页面
+moreGoods.jsp           更多商品界面
+details.jsp             前台商品详细信息
+
+
+
+
+
+
+
+
+无用页面
+booking.jsp             购物车
+emptyShoppingCart.jsp   空页面
+
+
+
+
+
+
+
+未完成
+
+shoppingCart.jsp        购物车页面
+
+
+
+
+
+
+
+
+
+
+

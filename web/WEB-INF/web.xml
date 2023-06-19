@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <filter>
+        <filter-name>CharSetFilter</filter-name>
+        <filter-class>filter.CharSetFilter</filter-class>
+        <init-param>
+            <param-name>encode</param-name>
+            <param-value>UTF-8</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>CharSetFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    <servlet>
+        <servlet-name>GoodsController</servlet-name>
+        <servlet-class>controller.GoodsController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AdminController</servlet-name>
+        <servlet-class>controller.AdminController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>NoticeController</servlet-name>
+        <servlet-class>controller.NoticeController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>OrderController</servlet-name>
+        <servlet-class>controller.OrderController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>MemberController</servlet-name>
+        <servlet-class>controller.MemberController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>TypeController</servlet-name>
+        <servlet-class>controller.TypeController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TypeController</servlet-name>
+        <url-pattern>/TypeController</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ShoppingCartController</servlet-name>
+        <servlet-class>controller.ShoppingCartController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ShoppingCartController</servlet-name>
+        <url-pattern>/ShoppingCartController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>OrderController</servlet-name>
+        <url-pattern>/OrderController</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>MemberController</servlet-name>
+        <url-pattern>/MemberController</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet-mapping>
+        <servlet-name>NoticeController</servlet-name>
+        <url-pattern>/NoticeController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AdminController</servlet-name>
+        <url-pattern>/AdminController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>GoodsController</servlet-name>
+        <url-pattern>/GoodsController</url-pattern>
+    </servlet-mapping>
+
+</web-app>
